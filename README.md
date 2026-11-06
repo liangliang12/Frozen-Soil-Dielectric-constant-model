@@ -6,7 +6,7 @@ Specifically, the operating frequency range is 0.2–20 GHz,
 the soil moisture content range is 0.05–0.4 m³/m³, 
 and the soil temperature is < 0 ℃,
 
-These frozen soil dielectric constant models were built based on Random Forest algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the soil dielectric properties,
+These frozen soil dielectric constant models were built based on Xgboost algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the frozen soil dielectric properties,
 
 ##The model materials introduction
 
