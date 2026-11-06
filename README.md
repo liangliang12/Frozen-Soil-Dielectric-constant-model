@@ -13,8 +13,7 @@ These frozen soil dielectric constant models were built based on Xgboost algorit
 Datasets: contains a sample dataset that can be used to verify whether the model works properly.
 EXample: contains sample data and example Python scripts for the soil dielectric constant real-part model.
 Forward_models: includes predictive models for the real and imaginary parts of the frozen soil dielectric constant, along with corresponding example Python scripts for their used.
-SM_Retrieval_Model: contains soil moisture content predictive models for various scenarios, along with corresponding example Python scripts for their use.
-Ssc_Retrieval_Model: contains soil salinity content predictive models for various scenarios, along with corresponding example Python scripts for their use.
+Ice_Retrieval_Model: contains ice content predictive models for various scenarios, along with corresponding example Python scripts for their use.
 The Basic_python_package: contains the required Python package files requirements.txt file with exact dependency versions.
 
 ##The underlying foundational environment
