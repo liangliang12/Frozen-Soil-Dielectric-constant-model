@@ -9,7 +9,7 @@ Specifically, the operating frequency range is 0.01–16 GHz,
 the ice content range is 0.005–0.6 m³/m³,  
 and the soil temperature is -30 - 0 ℃,  
 
-These frozen soil dielectric constant models were built based on Xgboost algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the frozen soil dielectric properties,  
+These frozen soil dielectric constant models were built based on Xgboost algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the frozen soil dielectric properties.    
 
 ## The model materials introduction
 
@@ -38,7 +38,7 @@ catboost 1.2.10
 Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the frozen soil dielectric constant.  
 For Retrieval models (e.g., modelxg_Realpredicted_Ice), the name follows this structure:   
 Prefix (Target Variable): ice content in frozen soil.  
-Condition/Parameters: Cband indicates the model is only applicable to C-band data; Real indicates that the input required is the real part of the dielectric constant.  
+Condition/Parameters: imag indicates that the input required is the image part of the dielectric constant; Real indicates that the input required is the real part of the dielectric constant; temp indicates that the input required is the temperature; matter indicates that the input required is the soil organic matter content.  
 
 ## Model Selection Guidance
 Choose a model based on your target variable and the data available in your application. Note that model accuracy may vary with different datasets.   
