@@ -35,23 +35,20 @@ lightgbm 4.6.0
 catboost 1.2.10  
 
 ## Model Naming Convention
-Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the soil dielectric constant.
-
-For Retrieval models (e.g., SMRetrieval_Cband_Real), the name follows this structure:
-
-Prefix (Target Variable): SM stands for Soil Moisture content; Ssc stands for Soil Salinity Content.
-
-Condition/Parameters: Cband indicates the model is only applicable to C-band data; Real indicates that the input required is the real part of the dielectric constant.
+Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the soil dielectric constant.  
+For Retrieval models (e.g., SMRetrieval_Cband_Real), the name follows this structure:   
+Prefix (Target Variable): SM stands for Soil Moisture content; Ssc stands for Soil Salinity Content.  
+Condition/Parameters: Cband indicates the model is only applicable to C-band data; Real indicates that the input required is the real part of the dielectric constant.  
 
 ## Model Selection Guidance
-Choose a model based on your target variable and the data available in your application. Note that model accuracy may vary with different datasets. 
+Choose a model based on your target variable and the data available in your application. Note that model accuracy may vary with different datasets.   
 For specific performance details, please refer to the relevant publications.
 
 ## Methods and Steps for Using the Models
 
-Download the required models based on your research objectives and available data.
-Load the models by referring to the corresponding example codes and proceed to achieve your goals.
-There are two ways to use the models:
-One is to compile the properties of the samples to be predicted into a separate file for batch prediction of the real and imaginary parts of the dielectric constant, 
-as well as for retrieving soil moisture or salinity from the dielectric constant (corresponding to # Multi-Sample Batch Prediction for Soil Properties in the example code).
+Download the required models based on your research objectives and available data.  
+Load the models by referring to the corresponding example codes and proceed to achieve your goals.  
+There are two ways to use the models: 
+One is to compile the properties of the samples to be predicted into a separate file for batch prediction of the real and imaginary parts of the dielectric constant,   
+as well as for retrieving soil moisture or salinity from the dielectric constant (corresponding to # Multi-Sample Batch Prediction for Soil Properties in the example code).  
 The other is to individually predict the properties of a single soil sample by inputting the sample attributes into the script to predict the real and imaginary parts of the dielectric constant and retrieve soil moisture or salinity from the dielectric constant (corresponding to #Single-Soil-Sample Prediction in the example code).
