@@ -3,6 +3,7 @@
 A frozen soil dielectric constant model was constructed based on datasets and typical machine learning algorithms. These models have huge advantages to retrieve crucial surface soil properties.
 
 ##Introduction
+
 The build frozen soil dielectric constant model can be used in an border application conditions. 
 Specifically, the operating frequency range is 0.2–20 GHz, 
 the soil moisture content range is 0.05–0.4 m³/m³, 
@@ -23,6 +24,7 @@ windows 10
 python==3.13
 
 ##The required base packages and recommended versions
+
 joblib 1.5.2
 numpy 2.3.5
 pandas 2.3.3
