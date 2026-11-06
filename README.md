@@ -35,9 +35,9 @@ lightgbm 4.6.0
 catboost 1.2.10  
 
 ## Model Naming Convention
-Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the soil dielectric constant.  
-For Retrieval models (e.g., SMRetrieval_Cband_Real), the name follows this structure:   
-Prefix (Target Variable): SM stands for Soil Moisture content; Ssc stands for Soil Salinity Content.  
+Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the frozen soil dielectric constant.  
+For Retrieval models (e.g., modelxg_Realpredicted_Ice), the name follows this structure:   
+Prefix (Target Variable): ice content in frozen soil.  
 Condition/Parameters: Cband indicates the model is only applicable to C-band data; Real indicates that the input required is the real part of the dielectric constant.  
 
 ## Model Selection Guidance
