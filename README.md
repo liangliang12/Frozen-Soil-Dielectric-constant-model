@@ -5,9 +5,9 @@ A frozen soil dielectric constant model was constructed based on datasets and ty
 ## Introduction
 
 The build frozen soil dielectric constant model can be used in an border application conditions.  
-Specifically, the operating frequency range is 0.2–20 GHz,  
-the soil moisture content range is 0.05–0.4 m³/m³,  
-and the soil temperature is < 0 ℃,  
+Specifically, the operating frequency range is 0.01–16 GHz,  
+the ice content range is 0.005–0.6 m³/m³,  
+and the soil temperature is -30 - 0 ℃,  
 
 These frozen soil dielectric constant models were built based on Xgboost algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the frozen soil dielectric properties,  
 
