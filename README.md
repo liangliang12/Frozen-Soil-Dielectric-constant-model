@@ -26,13 +26,13 @@ python==3.13
 
 ## The required base packages and recommended versions
 
-joblib 1.5.2  
-numpy 2.3.5  
-pandas 2.3.3  
-sklearn 1.7.2  
-xgboost 2.1.3  
-lightgbm 4.6.0  
-catboost 1.2.10  
+joblib==1.5.2  
+numpy==2.3.5  
+pandas==2.3.3  
+sklearn==1.7.2  
+xgboost==2.1.3  
+lightgbm==4.6.0  
+catboost==1.2.10  
 
 ## Model Naming Convention
 Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the frozen soil dielectric constant.  
