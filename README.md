@@ -1,12 +1,12 @@
 # Frozen-Soil-Dielectric-constant-model
 A frozen soil dielectric constant model was constructed based on datasets and typical machine learning algorithms. These models have huge advantages to retrieve crucial surface soil properties.
 ##Introduction
-The build soil dielectric constant model can be used in an border application conditions. 
+The build frozen soil dielectric constant model can be used in an border application conditions. 
 Specifically, the operating frequency range is 0.2–20 GHz, 
 the soil moisture content range is 0.05–0.4 m³/m³, 
-and the soil salinity content range is 0–100 g/kg,
+and the soil temperature is < 0 ℃,
 
-These soil dielectric constant models were built based on Random Forest algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the soil dielectric properties,
+These frozen soil dielectric constant models were built based on Random Forest algorithm through theoptimal model value, which was proven has the high-accuracy to simulating the soil dielectric properties,
 
 ##The model materials introduction
 
