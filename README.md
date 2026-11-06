@@ -13,11 +13,11 @@ These frozen soil dielectric constant models were built based on Xgboost algorit
 
 ## The model materials introduction
 
-Datasets: contains a sample dataset that can be used to verify whether the model works properly.
-EXample: contains sample data and example Python scripts for the soil dielectric constant real-part model.
-Forward_models: includes predictive models for the real and imaginary parts of the frozen soil dielectric constant, along with corresponding example Python scripts for their used.
-Ice_Retrieval_Model: contains ice content predictive models for various scenarios, along with corresponding example Python scripts for their use.
-The Basic_python_package: contains the required Python package files requirements.txt file with exact dependency versions.
+Datasets: contains a sample dataset that can be used to verify whether the model works properly.  
+EXample: contains sample data and example Python scripts for the soil dielectric constant real-part model.  
+Forward_models: includes predictive models for the real and imaginary parts of the frozen soil dielectric constant, along with corresponding example Python scripts for their used.  
+Ice_Retrieval_Model: contains ice content predictive models for various scenarios, along with corresponding example Python scripts for their use.  
+The Basic_python_package: contains the required Python package files requirements.txt file with exact dependency versions.  
 
 ## The underlying foundational environment
 
@@ -26,13 +26,13 @@ python==3.13
 
 ## The required base packages and recommended versions
 
-joblib 1.5.2
-numpy 2.3.5
-pandas 2.3.3
-sklearn 1.7.2
-xgboost 2.1.3
-lightgbm 4.6.0
-catboost 1.2.10
+joblib 1.5.2  
+numpy 2.3.5  
+pandas 2.3.3  
+sklearn 1.7.2  
+xgboost 2.1.3  
+lightgbm 4.6.0  
+catboost 1.2.10  
 
 ## Model Naming Convention
 Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the soil dielectric constant.
