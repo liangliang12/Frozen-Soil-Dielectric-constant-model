@@ -19,11 +19,12 @@ Forward_models: includes predictive models for the real and imaginary parts of t
 Ice_Retrieval_Model: contains ice content predictive models for various scenarios, along with corresponding example Python scripts for their use.
 The Basic_python_package: contains the required Python package files requirements.txt file with exact dependency versions.
 
-##The underlying foundational environment
-windows 10
-python==3.13
+## The underlying foundational environment
 
-##The required base packages and recommended versions
+windows 10  
+python==3.13  
+
+## The required base packages and recommended versions
 
 joblib 1.5.2
 numpy 2.3.5
@@ -33,7 +34,7 @@ xgboost 2.1.3
 lightgbm 4.6.0
 catboost 1.2.10
 
-Model Naming Convention:
+## Model Naming Convention
 Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the soil dielectric constant.
 
 For Retrieval models (e.g., SMRetrieval_Cband_Real), the name follows this structure:
@@ -42,11 +43,11 @@ Prefix (Target Variable): SM stands for Soil Moisture content; Ssc stands for So
 
 Condition/Parameters: Cband indicates the model is only applicable to C-band data; Real indicates that the input required is the real part of the dielectric constant.
 
-Model Selection Guidance:
+## Model Selection Guidance
 Choose a model based on your target variable and the data available in your application. Note that model accuracy may vary with different datasets. 
 For specific performance details, please refer to the relevant publications.
 
-Methods and Steps for Using the Models
+## Methods and Steps for Using the Models
 
 Download the required models based on your research objectives and available data.
 Load the models by referring to the corresponding example codes and proceed to achieve your goals.
