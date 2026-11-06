@@ -44,11 +44,11 @@ Condition/Parameters: imag indicates that the input required is the image part o
 Choose a model based on your target variable and the data available in your application. Note that model accuracy may vary with different datasets.   
 For specific performance details, please refer to the relevant publications.
 
-## Methods and Steps for Using the Models
+## Methods and Steps for Using the Models  
 
 Download the required models based on your research objectives and available data.  
 Load the models by referring to the corresponding example codes and proceed to achieve your goals.  
 There are two ways to use the models:  
 One is to compile the properties of the samples to be predicted into a separate file for batch prediction of the real and imaginary parts of the dielectric constant,   
-as well as for retrieving soil moisture or salinity from the dielectric constant (corresponding to # Multi-Sample Batch Prediction for Soil Properties in the example code).  
-The other is to individually predict the properties of a single soil sample by inputting the sample attributes into the script to predict the real and imaginary parts of the dielectric constant and retrieve soil moisture or salinity from the dielectric constant (corresponding to #Single-Soil-Sample Prediction in the example code).
+as well as for retrieving soil ice content from the dielectric constant (corresponding to # Multi-Sample Batch Prediction for Soil Properties in the example code).  
+The other is to individually predict the properties of a single soil sample by inputting the sample attributes into the script to predict the real and imaginary parts of the dielectric constant and retrieve soil ice content from the dielectric constant (corresponding to #Single-Soil-Sample Prediction in the example code).
