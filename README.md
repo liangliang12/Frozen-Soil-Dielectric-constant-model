@@ -4,7 +4,7 @@ A frozen soil dielectric constant model was constructed based on numerous measur
 
 ## Introduction
 
-The build frozen soil dielectric constant model can be used in an border application conditions.  
+The build frozen soil dielectric constant model can be used in a generalizable surface conditions.  
 Specifically, the operating frequency range is 0.01–16 GHz,  
 the ice content range is 0.005–0.6 m³/m³,  
 and the soil temperature is -30 - 0 ℃,  
@@ -14,7 +14,7 @@ These frozen soil dielectric constant models were built based on Xgboost algorit
 ## The model materials introduction
 
 Datasets: contains a sample dataset that can be used to verify whether the model works properly.  
-Example: contains sample data and example Python scripts for the soil dielectric constant real-part model.  
+Example: contains sample data and example Python scripts for the soil dielectric constant model.  
 Forward_models: includes predictive models for the real and imaginary parts of the frozen soil dielectric constant, along with corresponding example Python scripts for their used.  
 Ice_Retrieval_Model: contains ice content predictive models for various scenarios, along with corresponding example Python scripts for their use.  
 The Basic_python_package: contains the required Python package files requirements.txt file with exact dependency versions.  
@@ -37,11 +37,11 @@ catboost==1.2.10
 ## Model Naming Convention
 Models in the Forward_models directory are for predicting the real (Real_model) and imaginary (Imaginary_model) parts of the frozen soil dielectric constant.  
 For Retrieval models (e.g., modelxg_Realpredicted_Ice), the name follows this structure:   
-Prefix (Target Variable): ice content in frozen soil.  
+Target Variable: ice content in frozen soil.  
 Condition/Parameters: imag indicates that the input required is the image part of the dielectric constant; Real indicates that the input required is the real part of the dielectric constant; temp indicates that the input required is the temperature; matter indicates that the input required is the soil organic matter content.  
 
 ## Model Selection Guidance
-Choose a model based on your target variable and the data available in your application. Note that model accuracy may vary with different datasets.   
+Choose a model based on your target variable and the data available in your applications. Note that model accuracy may vary with different datasets.   
 For specific performance details, please refer to the relevant publications.
 
 ## Methods and Steps for Using the Models  
